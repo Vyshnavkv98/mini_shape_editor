@@ -1,0 +1,95 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #b1b1b1;
+}
+
+.parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  background-color: #909090;
+}
+
+.headingPara {
+
+  font-weight: 500;
+  font-size: 2.5rem;
+
+}
+
+.parentCanvas {
+  width: 75%;
+  height: 75%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.buttons {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 2rem;
+  margin: 0;
+}
+
+.canvas {
+  display: flex;
+  position: relative;
+  align-items: end;
+  width: 700px;
+  height: 600px;
+  background-color: white;
+}
